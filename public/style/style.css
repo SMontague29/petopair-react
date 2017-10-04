@@ -17,6 +17,9 @@
   margin: 0 auto;
 }
 
+.form-signin-heading {
+  font-family: 'Gloria Hallelujah';
+}
 .petBackground {
     background-image: url("../media/petCartoon.png");
     background-repeat: no-repeat;
@@ -27,6 +30,8 @@
 
 .mainLogo {
   padding: 0px;
+  position: relative;
+  left: 32px;
 }
 
 .navLogo{
@@ -37,6 +42,8 @@
 
 }
 
+
+
 .mainLogo {
   margin-left: 55px;
 }
@@ -45,21 +52,27 @@
    background-color: #6aac18 !important;
 }
 
+.page-footer h5 {
+  font-family: 'Concert One';
+}
+
 nav {
    background-color: #1820ac !important;
+   font-family: 'Concert One';
+}
+
+nav ul a {
+  font-size: 1.3rem !important;
 }
 
 #signUpButton {
-   background-color: #186aac !important;
+   background-color: #3998e5 !important;
+
 }
 
 .material-icons {
    color: #6aac18 !important;
    font-size: 40px;
-}
-
-#slide-out {
-   background-color: #dcdefa;
 }
 
 #preview {
@@ -117,16 +130,7 @@ label.treatment .royal{
 
 };
 
-/*tally box for cups of sugar accrued */
 
-.tallyBox {
-  margin-top: 100px;
-  width: 60px;
-  height: 60px;
-  border-color: #3998e5;
-  border-style: solid;
-  font-size: 30px;
-}
 
 #cupofSugar {
   margin-right: 100px;
@@ -136,7 +140,6 @@ label.treatment .royal{
   font-size: 12px;
 }
 /*end tally styling*/
-
 
 
 p {
@@ -152,4 +155,13 @@ p {
   /*background-color: #dcdefa;*/
   background-image: url("../media/brickwall.jpg");
   padding-top: 20px;
+}
+
+/*//side nav default background colors */
+.side-nav {
+  background-color: #dcdefa;
+}
+
+.userView {
+  background-color: #3998e5;
 }
