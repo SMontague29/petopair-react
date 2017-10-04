@@ -22,15 +22,27 @@
     background-repeat: no-repeat;
     background-position: right top;
 
-};
+}
 
 
 .mainLogo {
   padding: 0px;
 }
 
+.navLogo{
+  position: relative;
+  width: 250px;
+  bottom: 28px;
+  right: 40px;
+
+}
+
+.mainLogo {
+  margin-left: 55px;
+}
+
 .page-footer {
-   background-color: #6aac18;
+   background-color: #6aac18 !important;
 }
 
 nav {
@@ -59,7 +71,7 @@ nav {
     height: auto;
     min-height:200px;
 
-};
+}
 
 #bulletinHeader {
   text-align: center;

@@ -29,11 +29,10 @@ class App extends Component {
 </ul>
 
 
-  <div className="lighten-1" role="navigation">
+  <nav className="lighten-1" role="navigation">
     <div className="nav-wrapper" id="navbar">
       <button data-activates="slide-out" className="button-toggle-profile waves-effect waves-light btn " id="button-toggle-profile">Navigate Pet Opair</button>
-      <a id="logo-container" href="/" className="brand-logo"><img src="/media/Petopair.png"/></a>
-
+      <a id="logo-container" href="/" className="brand-logo"><img className="navLogo" src="/media/Petopair.png"/></a>
       <ul id="dropdown1" className="dropdown-content">
         <li><a href="badges.html">About</a></li>
         <li className="divider"></li>
@@ -54,8 +53,7 @@ class App extends Component {
         <li><a className="dropdown-button" href="#!" data-activates="dropdown1"><i className="material-icons right">menu</i></a></li>
       </ul>
     </div>
-  </div>
-
+  </nav>
 
 
   <div className="section no-pad-bot petBackground" id="index-banner">
@@ -113,8 +111,7 @@ class App extends Component {
         <div className="row">
           <div className="col l6 s12">
             <h5 className="white-text">About Us</h5>
-            <p className="grey-text text-lighten-4">Pet OPair is made up of four determined coding bootcamp students: Jessica Gertler, Mayat Smolnik, Julie Braun, and Amber Orenstein</p>
-            <p className="grey-text text-lighten-4">Pet OPair is made up of five determined coding bootcamp students: Jessica Gertler, Mayat Smolnik, Julie Braun, Jennifer King, and Amber Orenstein</p>
+            <p className="grey-text text-lighten-4">Pet OPair has three missions. One, to relieve all pet parents of financial stress and worry when needing petsitters. Two, to strengthen neighborhoods. Three, to enhance the lives of all animals. </p>
           </div>
           <div className="col l3 s12">
             <h5 className="white-text">Adopt!</h5>
@@ -143,7 +140,6 @@ class App extends Component {
     </footer>
 
     <div className="container">
-
       <div className="modal fade" id="myModal" role="dialog">
         <div className="modal-dialog">
 
@@ -152,11 +148,10 @@ class App extends Component {
               <button type="button" className="close" data-dismiss="modal">&times;</button>
               <h2 className="form-signin-heading">Please login</h2>
               <div id="error-div"></div>
-              <input type="text" className="form-control" name="username" placeholder="Username" id="login-name" required="" autofocus=""/>
+              <input type="text" className="form-control" name="username" placeholder="Username" id="login-name" required="" autoFocus=""/>
               <input type="password" className="form-control" name="password" id="login-password" placeholder="Password" required=""/>
               <label className="checkbox">
-        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"/> Remember me
-      </label>
+              <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"/> Remember me</label>
               <button className="btn btn-lg btn-primary btn-block" type="submit" id="login-btn">Login</button>
             </form>
             <p>Need an account? <a href="/signup">Signup</a></p>
