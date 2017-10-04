@@ -1,0 +1,143 @@
+@media only screen and (min-width : 768px) {
+  header, main, footer {
+    padding-left: 0;
+    }
+};
+#about-me-div{
+
+}
+#username-h2{
+  margin:0px;
+}
+#profile-page-container{
+  margin-top:30px;
+}
+
+.modalContainer {
+  margin: 0 auto;
+}
+
+.petBackground {
+    background-image: url("../media/petCartoon.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+};
+
+
+.mainLogo {
+  padding: 0px;
+}
+
+.page-footer {
+   background-color: #6aac18;
+}
+
+nav {
+   background-color: #1820ac !important;
+}
+
+#signUpButton {
+   background-color: #186aac !important;
+}
+
+.material-icons {
+   color: #6aac18 !important;
+   font-size: 40px;
+}
+
+#slide-out {
+   background-color: #dcdefa;
+}
+
+#preview {
+    background-image: url("../media/profPic.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-position: center;
+    width: 200px;
+    height: auto;
+    min-height:200px;
+
+};
+
+#bulletinHeader {
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+}
+td, th {
+  color: #1820ac !important;
+}
+
+
+#logo-container {
+  margin-left: 40px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+label.treatment {
+  display: block;
+  width: 96%;
+
+}
+
+label.treatment .commoner {
+  display: block;
+  float: left;
+
+}
+
+label.treatment .royal{
+  display: block;
+  float: right;
+  text-align: right;
+
+}
+.petBackground {
+    background-image: url("../media/petCartoon.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+};
+
+/*tally box for cups of sugar accrued */
+
+.tallyBox {
+  margin-top: 100px;
+  width: 60px;
+  height: 60px;
+  border-color: #3998e5;
+  border-style: solid;
+  font-size: 30px;
+}
+
+#cupofSugar {
+  margin-right: 100px;
+}
+
+.placeholderNumber {
+  font-size: 12px;
+}
+/*end tally styling*/
+
+
+
+p {
+  color: black;
+}
+
+.main-profile-pic {
+  padding: 30px 10px 55px 10px;
+  background-color: white;
+}
+
+.profileContainer {
+  /*background-color: #dcdefa;*/
+  background-image: url("../media/brickwall.jpg");
+  padding-top: 20px;
+}
