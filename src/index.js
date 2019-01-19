@@ -1,12 +1,12 @@
 // initial rendering of the ALL React DOM using ES6 modules
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Navigation from 'components/LandingPage';
+import Navigation from 'components/Navigation';
 // import '/containers/App.css';
 import LandingPage from 'components/LandingPage';
-import SignUp from 'components/Carousel';
+import SignUp from 'components/carousel';
 
-import './containers/index.css';
+import 'containers/index.css';
 import registerServiceWorker from './components/registerServiceWorker';
 import {
   BrowserRouter as Router,
@@ -56,7 +56,7 @@ console.log("hello")
     }
 };
 
-ReactDOM.render(<LandingPage />, document.getElementById('landingPageDiv'));
+ReactDOM.render(<LandingPage/>, document.getElementById('landingPageDiv'));
 registerServiceWorker();
 
 // ReactDOM.render(<SignUp/>, document.getElementById('signUpDiv'));
